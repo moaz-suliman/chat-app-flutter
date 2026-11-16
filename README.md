@@ -2,6 +2,16 @@
 
 A simple, fast real-time messaging app built with Flutter and Firebase.
 
+## Screenshots
+
+| Log In | Sign Up |
+|--------|---------|
+| ![Log In](screenshots/login_page.png) | ![Sign Up](screenshots/sign_up_page.png) |
+
+| Home | Chat |
+|------|------|
+| ![Home](screenshots/home_page.png) | ![Chat](screenshots/chat_page.png) |
+
 ## Features
 
 - Sign up and log in with email and password
@@ -28,8 +38,8 @@ View → Provider (ViewModel) → Repository → Firebase Service
 1. Clone the repository:
 
 ```bash
-git clone [https://github.com/اسم_حسابك/اسم_الريبوزيتوري.git
-cd ](https://github.com/moaz-suliman/chat-app.git)اسم_الريبوزيتوري
+git clone https://github.com/moaz-suliman/chat-app.git
+cd chat-app
 ```
 
 2. Install dependencies:
