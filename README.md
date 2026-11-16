@@ -1,17 +1,54 @@
-# real_time_chat
+# Chatly
 
-A new Flutter project.
+A simple, fast real-time messaging app built with Flutter and Firebase.
+
+## Features
+
+- Sign up and log in with email and password
+- Browse and search registered users
+- One-to-one real-time chat
+
+## Tech Stack
+
+- Flutter (Dart)
+- Firebase Authentication
+- Cloud Firestore
+- Provider (state management)
+
+## Architecture
+
+The project follows the MVVM pattern:
+
+```
+View → Provider (ViewModel) → Repository → Firebase Service
+```
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+1. Clone the repository:
 
-A few resources to get you started if this is your first Flutter project:
+```bash
+git clone [https://github.com/اسم_حسابك/اسم_الريبوزيتوري.git
+cd ](https://github.com/moaz-suliman/chat-app.git)اسم_الريبوزيتوري
+```
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+2. Install dependencies:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+flutter pub get
+```
+
+3. Connect the project to your Firebase project:
+
+```bash
+dart pub global activate flutterfire_cli
+flutterfire configure
+```
+
+4. In the Firebase Console, enable **Email/Password** in Authentication and create a **Firestore Database**.
+
+5. Run the app:
+
+```bash
+flutter run
+```
