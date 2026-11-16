@@ -39,7 +39,7 @@ View → Provider (ViewModel) → Repository → Firebase Service
 
 ```bash
 git clone https://github.com/moaz-suliman/chat-app.git
-cd chat-app
+cd chat-app-flutter
 ```
 
 2. Install dependencies:
