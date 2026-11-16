@@ -1,4 +1,4 @@
-# Chatly
+# chat app
 
 A simple, fast real-time messaging app built with Flutter and Firebase.
 
